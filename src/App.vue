@@ -1,0 +1,43 @@
+<template>
+  <div id="app">
+    <img src="./assets/logo.png">
+    <b-map-component></b-map-component>
+    <router-view/>
+  </div>
+</template>
+
+<script>
+ import BMapComponent from './components/BMapComponent.vue';
+export default {
+  name: 'App',
+  data() {
+            return {
+
+            }
+        },
+            methods:{
+    },
+        mounted() {
+
+        },
+        created() {
+
+
+                 },
+        components: {
+            BMapComponent
+
+        }
+}
+</script>
+
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
